@@ -5,7 +5,7 @@ image: "/posts/association-rules-title-img.png"
 tags: [Association Rule Learning, Python]
 ---
 
-In this project we use Association Rule Learning to analyse the transactional relationships & dependencies between products in the alcohol section of a grocery store.
+In this project we use Association Rule Learning to analyze the transactional relationships & dependencies between products in the alcohol section of a grocery store.
 
 # Table of contents
 
@@ -27,7 +27,7 @@ ___
 
 ### Context <a name="overview-context"></a>
 
-Our client is looking to re-jig the alcohol section within their store.  Customers are often complaining that they can't find the products they want, and are also wanting recommendations about which other products to try.  On top of this, their marketing team would like to start running "bundled" promotions as this has worked well in other areas of the store - but need guidance with selecting which products to put together.
+Our client is looking to re-configure the alcohol section within their store.  Customers often comment that they can't find the products they want, and are also wanting recommendations about which other products to try.  On top of this, their marketing team would like to start running "bundled" promotions as this has worked well in other areas of the store - but need guidance with selecting which products to put together.
 
 They have provided us a sample of 3,500 alcohol transactions - our task is fairly open - to see if we can find solutions or insights that might help the business address the aforementioned problems!
 
@@ -35,7 +35,7 @@ They have provided us a sample of 3,500 alcohol transactions - our task is fairl
 <br>
 ### Actions <a name="overview-actions"></a>
 
-Based upon the tasks at hand - we apply Association Rule Learning, specifically *Apriori* to examine & analyse the strength of relationship between different products within the transactional data.
+Based upon the tasks at hand - we apply Association Rule Learning, specifically *Apriori* to examine & analyze the strength of relationship between different products within the transactional data.
 
 We firstly installed the apyori package, which contains all of the required functionality for this task.
 
