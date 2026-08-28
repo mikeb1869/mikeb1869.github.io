@@ -9,13 +9,19 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: MJ Barrera
-description: "Hi I'm MJ, and I'm a Data Enthusiast.  My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "Hi, I'm MJ — a software developer building and shipping mobile apps with 
+Flutter. After 22 years in auto retail (the last 3 as a Product Manager 
+building eCommerce tools) and a year consulting on SEO, I made the leap to 
+writing code full-time. I am currently a digital nomad based in Southeast 
+Asia, and everything below is real, shipped work — not tutorials. Take a 
+look, or find me on Github & LinkedIn (or grab my Resume) using the links 
+below."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # About Section
-subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
+subtitle: Software Developer <span style="color:#f58506"> Portfolio </span>
 location: "USA"
 resume_url: /docs/resume.docx
 avatar_image: /img/IMG_1205 Cropped.jpg
