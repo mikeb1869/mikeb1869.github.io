@@ -9,12 +9,12 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: MJ Barrera
-description: "Hi, I'm MJ — a software developer building and shipping mobile apps with 
+description: "Hi, I'm MJ - a software developer building and shipping mobile apps with 
 Flutter. After 22 years in auto retail (the last 3 as a Product Manager 
 building eCommerce tools) and a year consulting on SEO, I made the leap to 
 writing code full-time. I am currently a digital nomad based in Southeast 
-Asia, and everything below is real, shipped work — not tutorials. Take a 
-look, or find me on Github & LinkedIn (or grab my Resume) using the links 
+Asia, and everything below is real, shipped work. Take a 
+look, or find me on Github & LinkedIn using the links 
 below."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
