@@ -10,7 +10,7 @@ excerpt: "My first Flutter app — a lead-tracking tool for solo independent use
 
 ## The problem
 
-Independent used car dealers running small operations — typically 10 to 25 vehicles on a lot — often manage sales leads entirely by memory: a mix of calls, texts, and emails with no central system and no reliable way to know who still needs a follow-up. Leads fall through the cracks not because dealers don't care, but because nothing is built for how small a "small business" actually is here.
+Independent used car dealers running small operations (typically 10 to 25 vehicles on a lot) often manage sales leads entirely by memory: a mix of calls, texts, and emails with no central system and no reliable way to know who still needs a follow-up. Leads fall through the cracks not because dealers don't care, but because nothing is built for how small a "small business" actually is here.
 
 I spent 18 years as a Buyer/Purchasing Manager in auto retail at CarMax before moving into product management, so I had a strong hypothesis about where the pain was. Rather than build on assumption alone, I validated it first.
 
@@ -20,7 +20,7 @@ I spent 18 years as a Buyer/Purchasing Manager in auto retail at CarMax before m
 
 Before writing any app code, I built a Python scraper targeting the NIADA Independent Dealer Forum and its CRM subforum on DealerRefresh, one of the industry's main community forums for independent dealers. I ran quantitative analysis on the scraped data with pandas, matplotlib, and wordcloud, then used the Anthropic API to do qualitative pain-point extraction across the corpus.
 
-That research ruled out two ideas I'd initially considered — inventory sourcing (a structural supply problem, not a tooling one) and recall compliance (existing solutions already cover it, and there are liability concerns with building in that space as an outsider) — and pointed clearly at lead management for solo dealers as the underserved workflow worth building for.
+That research ruled out two ideas I'd initially considered: inventory sourcing (a structural supply problem, not a tooling one) and recall compliance (existing solutions already cover it, and there are liability concerns with building in that space as an outsider). Instead, the research pointed clearly at lead management for solo dealers as the underserved workflow worth building for.
 
 ## What it does
 
@@ -42,13 +42,13 @@ That research ruled out two ideas I'd initially considered — inventory sourcin
 
 ## A real mistake, and a real fix
 
-Partway through development I accidentally committed `firebase_options.dart` — the file containing my Firebase project's API keys and config — directly into git history. Once I caught it, deleting the file in a new commit wasn't enough; the exposed keys were still sitting in every prior commit, retrievable by anyone who looked.
+Partway through development I accidentally committed `firebase_options.dart` (the file containing my Firebase project's API keys and config) directly into git history. Once I caught it, deleting the file in a new commit wasn't enough; the exposed keys were still sitting in every prior commit, retrievable by anyone who looked.
 
 I fixed it properly: rewrote the repository's git history with `filter-branch` to strip the file from every commit, then rotated the exposed Firebase credentials. It's not a glamorous bug, but it's a real one — the kind of mistake that's easy to make once and that taught me to actually think about what belongs in `.gitignore` before the first commit, not after.
 
 ## Why this project mattered
 
-Lead Tracker was where I learned the architectural patterns — MVVM, the repository pattern, dependency injection with `get_it` — that I carried into every Flutter project since, including [Helio](#), my B2C circadian rhythm app now live on the App Store and Google Play. It was also the first time I validated a product idea with real data before writing a line of app code, rather than assuming the problem based on instinct alone — a habit from my product management background that I plan to keep using.
+Lead Tracker was where I learned the architectural patterns (MVVM, the repository pattern, dependency injection with `get_it`) that I carried into every Flutter project since, including [Helio](#), my B2C circadian rhythm app now live on the App Store and Google Play. It was also the first time I validated a product idea with real data before writing a line of app code, rather than assuming the problem based on instinct alone — a habit from my product management background that I plan to keep using.
 
 ## What's next
 
