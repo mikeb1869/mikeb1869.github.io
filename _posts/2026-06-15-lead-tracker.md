@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Lead Tracker: A B2B Lead Management App for Independent Used Car Dealers"
+image: "/posts/lead-tracker-dms.png"
 date: 2026-08-01
 tags: [Flutter, Dart, Mobile Development, Firebase, MVVM]
 categories: [Flutter, Mobile Development]
