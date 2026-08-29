@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Math Workbook Generator: A Shared Engine Behind a 3-Book KDP Series"
-image: "/posts/math-workbook-generator-banner.png"
+image: "/posts/math-workbook-generator-img.png"
 date: 2026-07-17
 tags: [python, pdf-generation, reportlab]
 ---
