@@ -23,7 +23,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # About Section
 subtitle: Software Developer <span style="color:#f58506"> Portfolio </span>
 location: "USA"
-resume_url: /_posts/MJ_Barrera_Resume_2026.docx
+resume_url: /docs/MJ_Barrera_Resume_2026.docx
 avatar_image: /img/IMG_1205 Cropped.jpg
 
 #-------------------------------
