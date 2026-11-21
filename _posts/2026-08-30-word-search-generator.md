@@ -235,9 +235,11 @@ check.
 
 ## Status and source
 
-Both editions are published on Amazon KDP: *The Decades Word Search* went live in
-September 2026, and the Easy Jumbo Print Edition followed in early November. The
-series is the testbed for everything above, and I'm planning more books on the same
+Both editions are published on Amazon KDP:
+[*The Decades Word Search*](https://www.amazon.com/dp/B0HJLJNM3F) went live in
+September 2026, and the
+[Easy Jumbo Print Edition](https://www.amazon.com/dp/B0HPS9FCV4) followed in early
+November. The series is the testbed for everything above, and I'm planning more books on the same
 engine.
 
 **The source is in a private repository.** The engine is fairly generic, but the
