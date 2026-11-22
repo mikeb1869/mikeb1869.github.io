@@ -9,13 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: MJ Barrera
-description: "Hi, I'm MJ — a software developer working across Python, Flutter/Dart, and 
-React. After 22 years in auto retail (the last 4 as a Product Manager 
-building eCommerce tools) and a year consulting on web development & SEO, I made the leap to 
-writing code full-time. I'm currently a digital nomad based in Southeast 
-Asia, shipping real applications and building a B2B SEO platform (Python 
-backend, React frontend). Everything below is real, shipped work. Take a look, or find me on Github & LinkedIn
-using the links below."
+description: "Hi, I’m MJ — a Python developer focused on tooling, data pipelines, and backend systems. After 22 years in auto retail (the last 4 as a Product Manager building eCommerce tools) and a year of web/SEO consulting, I moved into full-time software development. Most of my recent work centers on production Python engines that generate published books and other real-world tools. I’m currently a digital nomad based in Southeast Asia and building a B2B SEO platform (Python backend + React frontend). Everything below is real, shipped work."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
