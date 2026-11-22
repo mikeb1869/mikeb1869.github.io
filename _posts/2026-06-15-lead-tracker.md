@@ -2,7 +2,7 @@
 layout: post
 title: "Lead Tracker: A B2B Lead Management App for Independent Used Car Dealers"
 image: "/posts/lead-tracker-dms.png"
-date: 2026-08-01
+date: 2026-08-11
 tags: [Flutter, Dart, Mobile Development, Firebase, MVVM]
 categories: [Flutter, Mobile Development]
 excerpt: "My first Flutter app — a lead-tracking tool for solo independent used car dealers, validated through forum research and built on 22 years of firsthand auto retail experience."
