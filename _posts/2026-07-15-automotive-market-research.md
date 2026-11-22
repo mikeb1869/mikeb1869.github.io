@@ -2,7 +2,7 @@
 layout: post
 title: "Dealer Market Research Pipeline: Scraping Forums + LLM Extraction to Decide What to Build"
 image: "/posts/dealer-market-research-header.jpg"
-date: 2026-07-15
+date: 2026-08-15
 categories: [projects, python]
 tags: [python, web-scraping, pandas, llm, market-research]
 ---
