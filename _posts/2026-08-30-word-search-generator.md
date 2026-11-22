@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Word Search Generator That Refuses to Ship Broken Puzzles"
 image: "/posts/word-search-generator-img.png"
-date: 2026-07-20
+date: 2026-08-30
 categories: [projects, python]
 tags: [python, generative, publishing, typography, testing]
 excerpt: "A Python pipeline that turns a theme plan into print-ready puzzle books, now two published editions on Amazon, and the silent bugs that took months to surface."
