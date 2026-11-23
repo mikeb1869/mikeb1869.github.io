@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Word Search Generator That Refuses to Ship Broken Puzzles"
+title: "Word Search Generator That Refuses to Ship Broken Puzzles"
 image: "/posts/word-search-generator-img.png"
 date: 2026-08-30
 categories: [projects, python]
